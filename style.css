@@ -139,3 +139,28 @@ button > a {
 }
 
 /* Add style to .quote and its child */
+
+.idk {
+    display: flex;
+    justify-content: center;
+    margin: 100px 200px;
+    padding: 30px 50px;
+    background-color: #3882f6;
+    gap: 80px;
+    border-radius: 5px;
+}
+
+.bold {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.idk > div > div {
+    color: #f9faf8;
+}
+
+.idk > button {
+    border: 1px solid #f9faf8;
+}
+
+/* Add style to .idk and its child */
