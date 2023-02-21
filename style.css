@@ -164,3 +164,13 @@ button > a {
 }
 
 /* Add style to .idk and its child */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 30px 0;
+    background-color: #1f2937;
+    color: #f9faf8;
+}
+
+/* Add style to .footer */
