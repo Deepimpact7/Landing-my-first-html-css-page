@@ -1,4 +1,32 @@
 body {
     display: flex;
     flex-direction: column;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    background-color: #1f2937;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 200px;
+}
+
+h1 {
+    font-size: 30px;
+    color: #f9faf8;
+}
+
+.header > ul {
+    display: flex;
+    gap: 20px;
+}
+
+.header > ul > li {
+    list-style-type: none;
+}
+
+.header > ul > li > a {
+    color: #f9faf8;
+    text-decoration: none;
 }
