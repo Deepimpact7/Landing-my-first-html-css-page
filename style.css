@@ -30,3 +30,48 @@ h1 {
     color: #f9faf8;
     text-decoration: none;
 }
+
+/* Add style to .header and its child */
+
+.intro {
+    display: flex;
+    background-color: #1f2937;
+    padding: 100px 200px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.intro > div > h2 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.intro > div {
+    width: 45%;
+}
+
+.intro > div > div {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+h2 {
+    margin: 0;
+}
+
+button {
+    background-color: #3882f6;
+    border: 0;
+    border-radius: 5px;
+    padding: 5px 25px;
+    margin-top: 5px;
+}
+
+button > a {
+    color: #f9faf8;
+    text-decoration: none;
+    font-weight: 800;
+}
+
+/* Add style to .intro and its child */
